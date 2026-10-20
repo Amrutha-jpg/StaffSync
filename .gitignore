@@ -1,0 +1,44 @@
+# StaffSync — Dependencies
+node_modules/
+
+# Environment Variables (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# MongoDB data directory
+C:/data/db/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite cache
+.vite/
+frontend/.vite/
+
+# Uploaded files (runtime data)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Coverage reports
+coverage/
