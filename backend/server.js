@@ -56,3 +56,4 @@ app.listen(PORT, () => {
   console.log(`🚀 StaffSync server running on http://localhost:${PORT}`);
   console.log(`📦 Environment: ${process.env.NODE_ENV || 'development'}`);
 });
+
